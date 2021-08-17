@@ -1,0 +1,5 @@
+{
+    "scripts": {
+      "cy:open": "./node_modules/.bin/cypress open"
+    }
+  }
