@@ -6,7 +6,8 @@ Al contrario que Selenium, Cypress cuenta con una nueva arquitectura construida 
 
 No necesitamos instalar varias herramientas ni librerías separadas para poder ejecutar tests, ya que ejecutando únicamente una línea de comando tendríamos Cypress instalado.
 
-[![alt](https://ibb.co/JqgyDmr)]
+![image](https://user-images.githubusercontent.com/32901911/129789995-e72ab8ef-7c0b-4aa6-9511-af2b4ded63c8.png)
+
 ## Intall Cypress
 ``` npm intall cypress --save-dev```
 
