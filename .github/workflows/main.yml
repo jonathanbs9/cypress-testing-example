@@ -1,4 +1,4 @@
-name: Cypress Test Example
+name: Cypress Tests example
 
 on: [push]
 
@@ -8,11 +8,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        # Install NPM dependencies, cache them correctly
-        # and run all Cypress tests
-      - name: Cypress Install
-        run: npm i cypress
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
-      - run: npm run build
-      - run: npm start
+        with:
+          build: npm run build
+          start: npm start
